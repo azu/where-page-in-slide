@@ -1,11 +1,15 @@
 # where-page-in-slide
 
-Support slide service
+Change URL to current page number of slide using `history.pushState`.
+
+Support slide services.
 
 * https://speakerdeck.com/
 * http://www.slideshare.net/
 
 ## Installation
+
+Bookmarklet.
 
 http://let.hatelabo.jp/efcl/let/hJmehf2N-chp
 
