@@ -1,7 +1,7 @@
 {
   "name": "where-page-in-slide",
   "description": "bookmarklet for slide service",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "homepage": "https://github.com/azu/where-page-in-slide/",
   "repository": {
     "type": "git",
