@@ -4,7 +4,7 @@
  * @description where-page-in-slide
  * @include http://*
  * @license MIT License
- * 
+ *
  * Source : https://github.com/azu/where-page-in-slide
  */
 
@@ -26,7 +26,8 @@ module.exports = function slideshare() {
     var slideNo = window.$.slideshareEventManager.controller.currentPosition;
     assert(slideNo >= 0);
     // http://d.hatena.ne.jp/kitokitoki/20130722/p2
-    history.pushState(__filename, "", slideNo);
+    var newURL = location.protocol + "//" + location.host + location.pathname + "/" + slideNo;
+    history.pushState(__filename, "", newURL);
 };
 }).call(this,"/lib/slideshare.js")
 },{"assert":4}],3:[function(require,module,exports){
