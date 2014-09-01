@@ -3,7 +3,8 @@
  * @description where-page-in-slide
  * @include http://*
  * @license MIT License
- * 
+ *
+ * Source : https://github.com/azu/where-page-in-slide
  */
 
 
