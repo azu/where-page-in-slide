@@ -1,0 +1,29 @@
+{
+  "name": "where-page-in-slide",
+  "description": "bookmarklet for slide service",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/where-page-in-slide/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/where-page-in-slide.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o `git config greasemonkey.file || echo where-page-in-slide.js`",
+    "watch": "watchify index.js -o `git config greasemonkey.file || echo where-page-in-slide.js`",
+    "dist": "browserify index.js -o where-page-in-slide.js",
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/where-page-in-slide/issues"
+  },
+  "devDependencies": {
+    "browserify": "^5.11.0",
+    "watchify": "^1.0.2"
+  }
+}
