@@ -4,7 +4,7 @@
  * @include http://*
  * @license MIT License
  *
- * Source : https://github.com/azu/where-page-in-slide
+ * Source Code : https://github.com/azu/where-page-in-slide
  */
 
 
