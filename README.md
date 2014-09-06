@@ -13,8 +13,6 @@ Support slide services.
 Install from <a href="https://azu.github.com/where-page-in-slide/" title="where-page-in-slide">where-page-in-slide</a>
 </div>
 
-to :bookmark: 
-
 ## Usage
 
 Run Bookmarklet on slide service.
