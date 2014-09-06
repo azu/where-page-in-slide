@@ -9,14 +9,11 @@ Support slide services.
 
 ## Installation
 
-<div rel="bookmarketlet" href="/where-page-in-slide.js">
-Install from <a href="https://azu.github.com/where-page-in-slide/" title="where-page-in-slide">where-page-in-slide</a>
-</div>
+Install from <a href="https://azu.github.com/where-page-in-slide/" title="where-page-in-slide">Here</a>
 
 ## Usage
 
 Run Bookmarklet on slide service.
-
 
 ## Build
 
